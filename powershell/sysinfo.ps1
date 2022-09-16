@@ -1,5 +1,32 @@
-﻿function getIP { 
-(Get-NetIPAddress).IPv4Address | select-string "192*" 
-}
+﻿get-service | format-list displayname, status
+get-service | format-table displayname, status
+get-service | format-table *
+get-service | sort-object -Property status -Descending | Format-Table displayname, status
+get-service | sort-object -Property status -Descending | Format-Table displayname, status | out-file c:\services.txt
+get-service | out-gridview
+get-service | select-object displayname, status | out-gridview
+get-service | select-object * | out-gridview
 
-### I was removing all the commands I was typing and starting fresh on each one. I have a word document with everything I learned throughout the lab if you would like me to send it to you. 
+$Hello = "hello, Powershell!"
+write-host($hello)
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
+Get-NetIPAddress
+Get-Help Get-NetIPAddress
+
+get-command Get-NetIPAddress
+
+(Get-NetIPAddress).ipv4address
+
+(Get-NetIPAddress).IPv4Address | select-string "192*"
+
+function getIP {
+(Get-NetIPAddress).IPv4Address | select-string "192*"
+}
+write-host(getIP)
+
+$IP = getIP
+write-host("This machines IP address is $IP")
+
+
