@@ -1,0 +1,1 @@
+﻿ Get-ChildItem -path C:\ -filter *.py -file -ErrorAction silentlycontinue -recurse | sort length -Descending | select-object length,name,directory -First 100 | Format-Table -AutoSize | Where-object {$_.length -lt 209715200}
