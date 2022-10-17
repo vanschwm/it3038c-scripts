@@ -1,0 +1,1 @@
+﻿Search-Everything -Extension .py -Global -size 10,2Mb -PathInclude C:\users\Freez\OneDrive -IncludeTotalCount -PathExclude C:\users\freez\.vscode -ParentCount 9
