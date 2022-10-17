@@ -1,4 +1,4 @@
-# MARKDOWN EXAMPLE 
+# Lab 7 Script in PowerShell
 
 ======
 
