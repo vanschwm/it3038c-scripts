@@ -2,7 +2,7 @@
 
 ======
 
-# How to install and use the PSEverything module for Powershell.
+## How to install and use the PSEverything module for Powershell.
 
 ======
 
