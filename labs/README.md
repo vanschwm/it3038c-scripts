@@ -8,7 +8,7 @@
 
 ###   To install the PSEverything module in Powershell, you will need to open Powershell as an administrator and run the code below. As a dependency you may need to install the Everything application as well.
 
-To run the script you will need to edit the parameters in the code below to match your file system, go to my github repository in the Labs folder to see my [Original Code.](https://it3038c-scripts/labs/PSEverything_Examples_Lab7.psm1](https://github.com/vanschwm/it3038c-scripts/blob/main/labs/PSEverything_Examples_Lab7.psm1)
+To run the script you will need to edit the parameters in the code below to match your file system, go to my github repository in the Labs folder to see my [Original Code.](https://github.com/vanschwm/it3038c-scripts/blob/main/labs/PSEverything_Examples_Lab7.psm1)
 
 This script will use the **Search-Everything** module to look for specific file extensions on your system. In this example it is python files. The **(-global)** switch will not only look in one specific directory, but the entire file system. The **(-size)** switch will limit the switch to being between 10 - 209715200 bytes. The **(-pathinclude)** switch will limit your search to a specific directory of your choosing. 
 The **(-IncludeTotalCount)** switch will show the total number of files found. The **(-PathExclude)** switch will exclude specific files paths to narrow down your search. The
