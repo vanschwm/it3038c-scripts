@@ -6,7 +6,7 @@
 
 ======
 
-###   To install the PSEverything module in Powershell, you will need to open Powershell as an administrator and run the code below. As a dependency you may need to ###   install the Everything application as well.
+###   To install the PSEverything module in Powershell, you will need to open Powershell as an administrator and run the code below. As a dependency you may need to install the Everything application as well.
 
 To run the script you will need to edit parameters in the code below to match your file system, go to my github repository in the Labs folder to see original code. 
 This script will use the "Search-Everything" module to look for specific file extensions on your system. In this example it is python files. The -global switch will not only look in one specific directory, but the entire file system.
