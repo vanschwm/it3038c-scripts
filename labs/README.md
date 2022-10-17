@@ -30,16 +30,17 @@ After the script is ran, it should go out and look at the C:\ file path for the 
 *Link to install*
 [Everything Application](https://www.voidtools.com/downloads/)
 
-
+*Powershell Command to install PSEverything module:*
 ```javascript 
-
-Powershell Command to install PSEverything module:
 Install-Module PSEverything
-
-Powershell code for my script:
+```
+*Powershell code for my script:*
+```javascript 
 Search-Everything -Extension .py -Global -size 10,2Mb -PathInclude C:\<Your file path> -IncludeTotalCount -PathExclude C:\<Your file path> -ParentCount 9
-
-Use the "get-help search-everything -Full" command to learn more about the module and parameters. 
+```
+*Use the help page to learn more about the module and parameters for PSEverything.*
+```javascript 
+get-help search-everything -Full
 
 ```
 
