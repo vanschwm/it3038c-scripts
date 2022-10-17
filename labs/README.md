@@ -1,10 +1,10 @@
 # Lab 7 Script in PowerShell
 
-======
+
 
 ## How to install and use the PSEverything module for Powershell.
 
-======
+
 
 ###   To install the PSEverything module in Powershell, you will need to open Powershell as an administrator and run the code below. As a dependency you may need to install the Everything application as well.
 
