@@ -43,5 +43,3 @@ Search-Everything -Extension .py -Global -size 10,2Mb -PathInclude C:\<Your file
 get-help search-everything -Full
 
 ```
-
-======
