@@ -27,7 +27,7 @@ After the script is ran, it should go out and look at the C:\ file path for the 
   <li>(-ParentCount) Parameter</li>
 </ul>
 
-*Link to install Everything Application*
+*Link to install*
 [Everything Application](https://www.voidtools.com/downloads/)
 
 
