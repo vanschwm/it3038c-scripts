@@ -22,8 +22,9 @@ Search-Everything -Extension .py -Global -size 10,2Mb -PathInclude C:\users\Free
 Use the "get-help search-everything -Full" command to learn more about the module and parameters. 
 
 ```
-<font size="5">This script will use the "Search-Everything" module to look for specific file extensions on your system. In this example it is python files. The -global switch will not only look in one specific directory, but the entire file system.
+======
+This script will use the "Search-Everything" module to look for specific file extensions on your system. In this example it is python files. The -global switch will not only look in one specific directory, but the entire file system.
 The -size switch will limit the switch to being between 10 - 209715200 bytes. The -pathinclude switch will limit your search to a specific directory of your choosing. 
 The -IncludeTotalCount switch will show the total number of files found. The -PathExclude switch will exclude specific files paths to narrow down your search. The
--ParentCount switch will narrow down the amount of parent directories that the script will look for. </font>
+-ParentCount switch will narrow down the amount of parent directories that the script will look for.
 ======
