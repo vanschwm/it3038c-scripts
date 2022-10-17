@@ -28,3 +28,4 @@ The -size switch will limit the switch to being between 10 - 209715200 bytes. Th
 The -IncludeTotalCount switch will show the total number of files found. The -PathExclude switch will exclude specific files paths to narrow down your search. The
 -ParentCount switch will narrow down the amount of parent directories that the script will look for.
 ======
+======
