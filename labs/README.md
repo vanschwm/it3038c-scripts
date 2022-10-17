@@ -14,7 +14,7 @@ This script will use the **Search-Everything** module to look for specific file 
 The **(-IncludeTotalCount)** switch will show the total number of files found. The **(-PathExclude)** switch will exclude specific files paths to narrow down your search. The
 **(-ParentCount)** switch will narrow down the amount of parent directories that the script will look for. 
 
-After the script is ran, it should go out and look at the C:\ file path for the .py extension and return a list of python files between 10- 209715200 bytes, and showq you the full path of the file and the total number of files that were found. 
+After the script is ran, it should go out and look at the C:\ file path for the .py extension and return a list of python files between 10- 209715200 bytes, and show you the full path of the file and the total number of files that were found. 
 
 **Features included in the script:**
 <ul>
