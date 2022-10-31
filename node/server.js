@@ -9,7 +9,6 @@ const memory = math.round(os.totalmem() / (1024 * 1024)) + " (MB)"
 const freeMemory = math.round(os.freemem() / (1024 * 1024)) + " (MB)"
 const serverUp = ("Days: " + math.floor(os.uptime() / (3600 * 24))) + (", Hours: " + math.floor((os.uptime() % (3600 * 24)) / 3600 )) + (", Minutes: " + math.floor((os.uptime() % 3600) /60)) + (", Seconds: " + math.floor(os.uptime() % 60)) 
 
-
 http.createServer((req, res) => {
   if (req.url === "/") {
       fs.readFile("./public/index.html", "UTF-8", (err, body) => {
@@ -35,6 +34,7 @@ http.createServer((req, res) => {
     </html>`
     res.writeHead(200, {"Content-Type": "text/html"});
     res.end(html);
+
   } else {
     res.writeHead(404, {"Content-Type": "text/plain"});
     res.end(`404 File Not Found at ${req.url}`);
