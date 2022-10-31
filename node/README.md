@@ -5,7 +5,7 @@
 ## How to build and run a formidable file upload form.  
 
 
-To run the script you will need to edit the parameters in the code below to match your file system (var newpath must match your file system), go to my github repository in the Labs folder to see my [Original Code.](https://github.com/vanschwm/it3038c-scripts/blob/main/node/project2.js)
+To run the script you will need to edit the parameters in the code below to match your file system (var newpath must match your file system). You will also need to install node modules as seen in Lab 6 (this will allow you to utilize node on your system if you do not already ahve them installed. Go to my github repository in the Node folder to see my [Code.](https://github.com/vanschwm/it3038c-scripts/blob/main/node/project2.js)
 
 This formidable Node.js module will create an HTML form that will allow a user to locally host a web site that allows for file uploads. You will upload a file to the form, the file will be temporarily saved on your system in the files variable, using the "parse" parameter, Node will parse the file uploaded for specific information and store it in the "files" parameter to find the old path of the file uploaded. It will then use the "newpath" variable to specify the new location of where the file will be stored locally on your machine. 
 
