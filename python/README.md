@@ -6,7 +6,8 @@
 
 
 To run the script you will need to go to my python repository linked [Here.](https://github.com/vanschwm/it3038c-scripts/blob/main/python/Project2Official.py) Download the Python file, open it in an IDE and run the script for Python. The code will display a list of options that the user can choose to to add, remove, display, or exit a candylist. If the user adds a candy it will append the candy added to the list, the user can remove the candy (if the item is not found it will say that), the user can display the current list, and the user can exit the list. The script will keep running until the user exits the list.   
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 *Code for Favorite Candy:*
 ```javascript 
 def displayMenu():
