@@ -1,4 +1,4 @@
-# Project 2, Creating a File Upload in Node.js
+# Project 2, Python Script for user input regarding a list of candy.
 
 
 
