@@ -1,4 +1,4 @@
-# Final Project - Compare the SHA-256 Hash of two files.
+# Final Project - Compare the SHA-256 Hash of Two Files
 
 ##   Description of how this PowerShell Script works
 
