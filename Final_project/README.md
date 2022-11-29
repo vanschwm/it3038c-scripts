@@ -1,12 +1,12 @@
 # Final Project - Compare the SHA-256 Hash of two files.
 
-##   Description of how this PowerShell Script works.
+##   Description of how this PowerShell Script works
 
 To run the script you will need to edit a few parameters in the script to match your file system, go to my github repository in the Labs folder to see my [Original Code.](https://github.com/vanschwm/it3038c-scripts/blob/main/Final_project/Final_Project_vanschwm.ps1)
 
 This is a powershell script that is used to check the file hashes of two different files to see if they are the same or if they have been changed. A main use case scenario for this would be to ensure the integrity of your system. In this example, we are recursively checking **"C:\Program Files"** for all **.exe's**, storing their hashes in a text file and then running the check again, storing the hashes in a new file (preferably at a later time) and then comparing the file hashes and checking if any modifications have been made. If modifications to the file hash have been made, you will be told that a change was found. If no change was found, you will be told that everything is okay.
 
-### How to run the script.
+### How to run the script
 
 * **1.** First, you will need to download the .ps1 file that is located in my [GitHub repository.](https://github.com/vanschwm/it3038c-scripts/blob/main/Final_project/Final_Project_vanschwm.ps1)
 * **2.** One way to do this would be to copy and past my code from my repository in the step above or reference the bottom of this README and directly copy from the javascript block. 
@@ -19,7 +19,7 @@ This is a powershell script that is used to check the file hashes of two differe
 
 ## How to view the script working
 
-To watch the script do its magic, you will need to:
+**To watch the script do its magic, you will need to:**
 * **1.** Open the "C:\File_Hash" directory
 * **2.** You will then be able to view the "Original_Hash.txt" and "Comparable_Hash.txt" and you will see the contents of the data being re-written.
 * **3.** You will also see the "equal.txt" file or the "unequal.txt" file populate within this directory. 
