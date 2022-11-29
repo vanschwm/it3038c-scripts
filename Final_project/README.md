@@ -26,7 +26,7 @@ This is a powershell script that is used to check the file hashes of two differe
 
 ## Side Notes
 
-If you would like to run this script at boot, there are options to do so (which is what I am currently doing). To do this, you will need to do the following.
+**If you would like to run this script at boot, there are options to do so (which is what I am currently doing). To do this, you will need to do the following.**
 
 * **1.** Create a ".cmd" file titled "hash.cmd". (this can be done in notepad, make sure to save as .cmd file)
 * **2.** Inside of the .cmd file you will need to input the text "powerShell C:\Final_Project_vanschwm.ps1" (The name of this file will be different for you as you would need to save the script locally on your machine.)
