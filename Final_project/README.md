@@ -4,7 +4,7 @@
 
 To run the script you will need to edit a few parameters in the script to match your file system, go to my github repository in the Labs folder to see my [Original Code.](https://github.com/vanschwm/it3038c-scripts/blob/main/Final_project/Final_Project_vanschwm.ps1)
 
-This is a powershell script that is used to check the file hashes of two different files to see if they are the same or of they have been changed. A main use case scenario for this would be to ensure the integrity of your system. In this example, we are recursively checking **"C:\Program Files"** for all **.exe's**, storing their hashes in a text file and then running the check again, storing the hashes in a new file (preferably at a later time) and then comparing the file hashes and checking if any modifications have been made. If modifications to the file hash have been made, you will be told that a change was found. If no change was found, you will be told that everyhting is okay.
+This is a powershell script that is used to check the file hashes of two different files to see if they are the same or if they have been changed. A main use case scenario for this would be to ensure the integrity of your system. In this example, we are recursively checking **"C:\Program Files"** for all **.exe's**, storing their hashes in a text file and then running the check again, storing the hashes in a new file (preferably at a later time) and then comparing the file hashes and checking if any modifications have been made. If modifications to the file hash have been made, you will be told that a change was found. If no change was found, you will be told that everything is okay.
 
 ### How to run the script.
 
