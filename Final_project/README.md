@@ -9,12 +9,12 @@ This is a powershell script that is used to check the file hashes of two differe
 ### How to run the script.
 
 1. First, you will need to download the .ps1 file that is located in my [GitHub repository](https://github.com/vanschwm/it3038c-scripts/blob/main/Final_project/Final_Project_vanschwm.ps1)
-2. One way to do this would be to go to the file link, and click on the button "raw" that is right on top of the script. This will put my code into text format that you can then copy and paste into a ".ps1" file. 
+2. One way to do this would be to copy and past my code from my repository in the step above or reference the bottom of this README and directly copy from the javascript block. 
 3. You will need to open PowerShell ISE as an admin and POTENTIALLY allow the execution of local scripts on your machine. To do this, follow this [link](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.3)
 4. From there, you will need to open an ISE file and copy / paste the contents of my code into the file. 
 5. You will then need to add a new folder "File_Hash" on your C Drive. (C:\File_Hash)
-6. To be safe, you will also want to create the text files "Original_Hash" and "Comparable_Hash" inside of your "C:\File_Hash" folder. (C:\File_Hash\Original_Hash && C:\File_Hash\Comparable_Hash)
-7. Finally, you will click the green "play" button that says "run script" to full execute my code.
+6. To be safe, you will also want to create the text files "Original_Hash.txt" and "Comparable_Hash.txt" inside of your "C:\File_Hash" folder. (C:\File_Hash\Original_Hash.txt && C:\File_Hash\Comparable_Hash.txt)
+7. Finally, you will click the green "play" button that says "run script" to fully execute my code.
 
 **Features included in the script:**
 <ul>
